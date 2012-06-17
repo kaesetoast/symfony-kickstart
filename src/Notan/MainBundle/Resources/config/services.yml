@@ -1,0 +1,7 @@
+parameters:
+#    notan_main.example.class: Notan\MainBundle\Example
+
+services:
+#    notan_main.example:
+#        class: %notan_main.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
