@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Notan\UserBundle\NotanUserBundle(),
             new Notan\MainBundle\NotanMainBundle(),
+            new Notan\AdminBundle\NotanAdminBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

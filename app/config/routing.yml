@@ -1,3 +1,7 @@
+NotanAdminBundle:
+    resource: "@NotanAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
 NotanMainBundle:
     resource: "@NotanMainBundle/Resources/config/routing.yml"
     prefix:   /
